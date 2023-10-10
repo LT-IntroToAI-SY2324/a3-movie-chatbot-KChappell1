@@ -13,12 +13,10 @@ Assignment 3 is all about creating this natural language query system.  In order
 
 
 4. What is chatbot would you create that would be like this?  Describe why you would create it and what it would do.
-
+I would create a chatbot bot like this that allow me to make decisions over mundane tasks. Like what to wear or what to eat. In order to reduce the amount of decisions I would have to make throughout the day. 
 
 5. What was the most difficult portion of this assignment?
-
+I found it quite difficult with understanding the logic process of what was happening throughout the function making process. I didn't have a firm grasp of what everything was doing like apphend and what the parameters meant in the "get..." functions
 
 6. Did you write a new assert for your pattern action?
-
-
 
