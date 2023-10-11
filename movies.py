@@ -14,6 +14,16 @@ from typing import List, Tuple
 
 movie_db: List[Tuple[str, str, int, List[str]]] = [
     (
+        "puss in boots: the last wish",
+        "joel crawford",
+        2022,
+        [
+            "antonio banderas",
+            "salma hayek", 
+            "harvey guillén",
+        ],
+    )
+    (
         "amarcord",  # title
         "federico fellini",  # director
         1974,  # year

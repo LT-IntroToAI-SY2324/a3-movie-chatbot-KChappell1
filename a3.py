@@ -221,6 +221,7 @@ pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     (str.split("who acted in %"), actors_by_title),
     (str.split("when was % made"), year_by_title),
     (str.split("in what movies did % appear"), title_by_actor),
+    (str.split("actors of %"), actor_by_title),
     (["bye"], bye_action),
 ]
 
@@ -324,5 +325,8 @@ if __name__ == "__main__":
     assert sorted(
         search_pa_list(["what", "movies", "were", "made", "in", "2020"])
     ) == sorted(["No answers"]), "failed search_pa_list test 3"
+    assert sorted(search_pa_list(["actors", "of", "puss in boots: the last wish"])) == sorted(
+        ["antonio banderas", "salma hayek", "harvey guillén"]
+    ), "failed search_pa_list test 3"
 
     print("All tests passed!")
